@@ -1,0 +1,306 @@
+{
+  "format": 1,
+  "restore": {
+    "c:\\Users\\APT01-43\\Documents\\DB_proyectos\\farmacia\\ApiFarmacia\\ApiFarmacia.csproj": {}
+  },
+  "projects": {
+    "c:\\Users\\APT01-43\\Documents\\DB_proyectos\\farmacia\\ApiFarmacia\\ApiFarmacia.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "c:\\Users\\APT01-43\\Documents\\DB_proyectos\\farmacia\\ApiFarmacia\\ApiFarmacia.csproj",
+        "projectName": "ApiFarmacia",
+        "projectPath": "c:\\Users\\APT01-43\\Documents\\DB_proyectos\\farmacia\\ApiFarmacia\\ApiFarmacia.csproj",
+        "packagesPath": "C:\\Users\\APT01-43\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\APT01-43\\Documents\\DB_proyectos\\farmacia\\ApiFarmacia\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\APT01-43\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "c:\\Users\\APT01-43\\Documents\\DB_proyectos\\farmacia\\Aplicacion\\Aplicacion.csproj": {
+                "projectPath": "c:\\Users\\APT01-43\\Documents\\DB_proyectos\\farmacia\\Aplicacion\\Aplicacion.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[7.0.11, )"
+            },
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[7.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.11, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "c:\\Users\\APT01-43\\Documents\\DB_proyectos\\farmacia\\Aplicacion\\Aplicacion.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "c:\\Users\\APT01-43\\Documents\\DB_proyectos\\farmacia\\Aplicacion\\Aplicacion.csproj",
+        "projectName": "Aplicacion",
+        "projectPath": "c:\\Users\\APT01-43\\Documents\\DB_proyectos\\farmacia\\Aplicacion\\Aplicacion.csproj",
+        "packagesPath": "C:\\Users\\APT01-43\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\APT01-43\\Documents\\DB_proyectos\\farmacia\\Aplicacion\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\APT01-43\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "c:\\Users\\APT01-43\\Documents\\DB_proyectos\\farmacia\\Dominio\\Dominio.csproj": {
+                "projectPath": "c:\\Users\\APT01-43\\Documents\\DB_proyectos\\farmacia\\Dominio\\Dominio.csproj"
+              },
+              "c:\\Users\\APT01-43\\Documents\\DB_proyectos\\farmacia\\Persistencia\\Persistencia.csproj": {
+                "projectPath": "c:\\Users\\APT01-43\\Documents\\DB_proyectos\\farmacia\\Persistencia\\Persistencia.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "c:\\Users\\APT01-43\\Documents\\DB_proyectos\\farmacia\\Dominio\\Dominio.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "c:\\Users\\APT01-43\\Documents\\DB_proyectos\\farmacia\\Dominio\\Dominio.csproj",
+        "projectName": "Dominio",
+        "projectPath": "c:\\Users\\APT01-43\\Documents\\DB_proyectos\\farmacia\\Dominio\\Dominio.csproj",
+        "packagesPath": "C:\\Users\\APT01-43\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\APT01-43\\Documents\\DB_proyectos\\farmacia\\Dominio\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\APT01-43\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[11.3.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.11, )"
+            },
+            "itext7.pdfhtml": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "c:\\Users\\APT01-43\\Documents\\DB_proyectos\\farmacia\\Persistencia\\Persistencia.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "c:\\Users\\APT01-43\\Documents\\DB_proyectos\\farmacia\\Persistencia\\Persistencia.csproj",
+        "projectName": "Persistencia",
+        "projectPath": "c:\\Users\\APT01-43\\Documents\\DB_proyectos\\farmacia\\Persistencia\\Persistencia.csproj",
+        "packagesPath": "C:\\Users\\APT01-43\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\APT01-43\\Documents\\DB_proyectos\\farmacia\\Persistencia\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\APT01-43\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "c:\\Users\\APT01-43\\Documents\\DB_proyectos\\farmacia\\Dominio\\Dominio.csproj": {
+                "projectPath": "c:\\Users\\APT01-43\\Documents\\DB_proyectos\\farmacia\\Dominio\\Dominio.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "CsvHelper": {
+              "target": "Package",
+              "version": "[30.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.11, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
