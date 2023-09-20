@@ -5273,19 +5273,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\APT01-43\\.nuget\\packages\\": {}
+    "/Users/alejandromunoz/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\APT01-43\\Documents\\DB_proyectos\\farmacia\\Aplicacion\\Aplicacion.csproj",
+      "projectUniqueName": "/Users/alejandromunoz/Desktop/farmacia/Aplicacion/Aplicacion.csproj",
       "projectName": "Aplicacion",
-      "projectPath": "c:\\Users\\APT01-43\\Documents\\DB_proyectos\\farmacia\\Aplicacion\\Aplicacion.csproj",
-      "packagesPath": "C:\\Users\\APT01-43\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\APT01-43\\Documents\\DB_proyectos\\farmacia\\Aplicacion\\obj\\",
+      "projectPath": "/Users/alejandromunoz/Desktop/farmacia/Aplicacion/Aplicacion.csproj",
+      "packagesPath": "/Users/alejandromunoz/.nuget/packages/",
+      "outputPath": "/Users/alejandromunoz/Desktop/farmacia/Aplicacion/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\APT01-43\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "/Users/alejandromunoz/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
@@ -5297,11 +5297,11 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "c:\\Users\\APT01-43\\Documents\\DB_proyectos\\farmacia\\Dominio\\Dominio.csproj": {
-              "projectPath": "c:\\Users\\APT01-43\\Documents\\DB_proyectos\\farmacia\\Dominio\\Dominio.csproj"
+            "/Users/alejandromunoz/Desktop/farmacia/Dominio/Dominio.csproj": {
+              "projectPath": "/Users/alejandromunoz/Desktop/farmacia/Dominio/Dominio.csproj"
             },
-            "c:\\Users\\APT01-43\\Documents\\DB_proyectos\\farmacia\\Persistencia\\Persistencia.csproj": {
-              "projectPath": "c:\\Users\\APT01-43\\Documents\\DB_proyectos\\farmacia\\Persistencia\\Persistencia.csproj"
+            "/Users/alejandromunoz/Desktop/farmacia/Persistencia/Persistencia.csproj": {
+              "projectPath": "/Users/alejandromunoz/Desktop/farmacia/Persistencia/Persistencia.csproj"
             }
           }
         }
@@ -5331,7 +5331,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.109/RuntimeIdentifierGraph.json"
       }
     }
   }
